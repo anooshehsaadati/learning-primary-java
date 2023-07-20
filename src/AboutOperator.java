@@ -39,5 +39,15 @@ public class AboutOperator {
         System.out.println("value of student Number is " + studentNumber);
         System.out.println("Pre decrementing is " + --studentNumber);
         System.out.println("final value is " + studentNumber);
+
+        System.out.println("\n");
+
+        // Order of operator
+        int x;
+        int y = 10;
+        x = y * 2 + 6;
+        System.out.println("value of x if \"x = y * 2 + 6 is\" " + x);
+        x = y * (2 + 6);
+        System.out.println("value of x if \"x = y * (2 + 6)\" is " + x);
     }
 }
