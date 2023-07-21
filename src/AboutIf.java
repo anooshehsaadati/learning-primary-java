@@ -39,5 +39,6 @@ public class AboutIf {
         } else {
             System.out.println("Sorry, please enter correct input!");
         }
+        keyboardInput.close();
     }
 }
