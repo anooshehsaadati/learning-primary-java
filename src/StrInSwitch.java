@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class StrInSwitch {
     public static void main(String[] args) {
         Scanner keyboardInput = new Scanner(System.in);
+        System.out.print("Please enter the name of the City: ");
         if (keyboardInput.hasNext()){
             String cityName = keyboardInput.next();
             cityName = cityName.toLowerCase();
