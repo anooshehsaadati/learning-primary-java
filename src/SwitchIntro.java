@@ -43,6 +43,8 @@ public class SwitchIntro {
                 case 12:
                     System.out.println("You were born in Esfand.");
                     break;
+                default:
+                    System.out.println("Wrong number of month!");
             }
         }else {
             System.out.println("Sorry, please enter the correct format!");
