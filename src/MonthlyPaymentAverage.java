@@ -18,6 +18,12 @@ public class MonthlyPaymentAverage {
         for (int i = 0; i < monthPayment.length; i++) {
             totalPayment += monthPayment[i];
         }
+        /*
+        -- Enhanced Loop
+        for (int cnt : monthPayment) {
+            totalPayment += cnt;
+        }
+        */
         System.out.println("Total Payment is " + totalPayment);
 
         double avgPayment = totalPayment / (float) monthPayment.length;
