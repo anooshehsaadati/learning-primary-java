@@ -6,4 +6,9 @@ public class MethodIntro {
     public void showData() {
         System.out.println("Name of laptop is " + laptopName + " and its price is " + price + "$");
     }
+
+    String sentence = "Dear son go to supermarket and also buy some ";
+    public void goToSuperMarket(String something) {
+        System.out.println(sentence + something);
+    }
 }
