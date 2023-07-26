@@ -5,5 +5,7 @@ public class MethodMain {
         MethodIntro methodIntro = new MethodIntro();
         methodIntro.showData();
         methodIntro.goToSuperMarket("Bread");
+        int price = methodIntro.goToComputerComplex();
+        System.out.println("Laptop price is " + price + "$");
     }
 }

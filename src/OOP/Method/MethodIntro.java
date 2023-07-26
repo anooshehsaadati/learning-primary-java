@@ -11,4 +11,9 @@ public class MethodIntro {
     public void goToSuperMarket(String something) {
         System.out.println(sentence + something);
     }
+
+    public int goToComputerComplex() {
+        int laptopPrice = 1000;
+        return laptopPrice;
+    }
 }
